@@ -1,0 +1,80 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.page_container
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color:  #004080;
+    height: 700px;
+}
+
+.welcomin
+{
+    width: 90%;
+    margin: 0px auto;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    padding: 20px;
+    height: 200px;
+    line-height: 200px;
+    background-color: black;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+    font-family: "Algerian",sans-serif;
+    text-align: center;
+    box-shadow: 10px 10px 30px white;
+}
+.container_links
+{
+    border: 1px solid #004080;
+    width: 600px;
+    height: 400px;
+    background-color: #3f51b5;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 0px 50px white;
+}
+.container_links>a
+{
+    display: block;
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #2196f3;
+    font-size: 25px ;
+    font-family: "Showcard Gothic","Rockwell Extra Bold","Juice ITC","Matura MT Script Capitals","comic sans ms";
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 4px 6px black;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    
+    transition: all 1s ease-in-out;
+    
+
+}
+.container_links>a:first-child
+{
+    margin-top: 100px;
+}
+.container_links>a:hover
+{
+    background-color: #0a68b6;
+    color: darkgrey;
+}
+.container_links>a:last-child
+{
+    background-color: brown;
+}
